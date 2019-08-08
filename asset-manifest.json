@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Face-Detection/static/css/main.a76fb195.chunk.css",
+    "main.js": "/Face-Detection/static/js/main.1a1c9a78.chunk.js",
+    "main.js.map": "/Face-Detection/static/js/main.1a1c9a78.chunk.js.map",
+    "runtime~main.js": "/Face-Detection/static/js/runtime~main.dd67005f.js",
+    "runtime~main.js.map": "/Face-Detection/static/js/runtime~main.dd67005f.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/Face-Detection/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.22b2e6a2.chunk.js": "/Face-Detection/static/js/2.22b2e6a2.chunk.js",
+    "static/js/2.22b2e6a2.chunk.js.map": "/Face-Detection/static/js/2.22b2e6a2.chunk.js.map",
+    "index.html": "/Face-Detection/index.html",
+    "precache-manifest.281c53217e5e64e2a5f693c1db121102.js": "/Face-Detection/precache-manifest.281c53217e5e64e2a5f693c1db121102.js",
+    "service-worker.js": "/Face-Detection/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/Face-Detection/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.a76fb195.chunk.css.map": "/Face-Detection/static/css/main.a76fb195.chunk.css.map",
+    "static/media/india.png": "/Face-Detection/static/media/india.a2a96ebd.png"
+  }
+}
