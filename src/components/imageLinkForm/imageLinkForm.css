@@ -1,16 +1,5 @@
 .form {
     max-width: 100%;
-    background:
-radial-gradient(circle at 50% 59%, #fff 3%, #52ff02 4%, #52ff02 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 50px 0,
-radial-gradient(circle at 50% 41%, #52ff02 3%, #fff 4%, #fff 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 50px 0,
-radial-gradient(circle at 50% 59%, #fff 3%, #52ff02 4%, #52ff02 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 50px,
-radial-gradient(circle at 50% 41%, #52ff02 3%, #fff 4%, #fff 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 50px,
-radial-gradient(circle at 100% 50%, #fff 16%, rgba(210,202,171,0) 17%),
-radial-gradient(circle at 0% 50%, #52ff02 16%, rgba(54,78,39,0) 17%),
-radial-gradient(circle at 100% 50%, #fff 16%, rgba(210,202,171,0) 17%) 50px 50px,
-radial-gradient(circle at 0% 50%, #52ff02 16%, rgba(54,78,39,0) 17%) 50px 50px;
-background-color:#ff6600ad;
-background-size:100px 100px;
 }
 
 .btn{
@@ -25,7 +14,7 @@ background-size:100px 100px;
     color: #000000;
 }
 
-button:focus {
+button:focus, button:hover {
     outline: none;
 }
 
@@ -37,6 +26,9 @@ button:focus {
     .ImageLink{
         left: 50%;
         transform: translateX(-50%);
+    }
+    .form{
+        width: 500px;
     }
 }
 
