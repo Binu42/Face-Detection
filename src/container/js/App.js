@@ -60,11 +60,18 @@ class App extends Component {
 
   // Detacting faces in image on button click
   onButtonClick = (event) => {
-    // clarifai code for faces detection 
+    // clarifai code for faces detection
+    if(this.state.input === ''){
+      event.preventDefault();
+    }else{
+      document.getElementById('message').textContent = 'Loading ...' 
     app.models.predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
-    .then(response => this.displayFacebox(this.calculateFaceLocationBox(response.outputs[0].data.regions))  // [0].region_info.bounding_box
-    .catch(error => console.log(error)) 
-  );
+    .then(response => {
+      document.getElementById('message').innerText = '';
+      this.displayFacebox(this.calculateFaceLocationBox(response.outputs[0].data.regions))
+    })  // [0].region_info.bounding_box
+    .catch(error => console.log(error));
+    }
   }
 
   render() {
