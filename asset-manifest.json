@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Face-Detection/static/css/main.63b8f6c4.chunk.css",
-    "main.js": "/Face-Detection/static/js/main.c4966f33.chunk.js",
-    "main.js.map": "/Face-Detection/static/js/main.c4966f33.chunk.js.map",
+    "main.css": "/Face-Detection/static/css/main.9a59700a.chunk.css",
+    "main.js": "/Face-Detection/static/js/main.3111044d.chunk.js",
+    "main.js.map": "/Face-Detection/static/js/main.3111044d.chunk.js.map",
     "runtime~main.js": "/Face-Detection/static/js/runtime~main.dd67005f.js",
     "runtime~main.js.map": "/Face-Detection/static/js/runtime~main.dd67005f.js.map",
     "static/css/2.31dafeb2.chunk.css": "/Face-Detection/static/css/2.31dafeb2.chunk.css",
     "static/js/2.7856991b.chunk.js": "/Face-Detection/static/js/2.7856991b.chunk.js",
     "static/js/2.7856991b.chunk.js.map": "/Face-Detection/static/js/2.7856991b.chunk.js.map",
     "index.html": "/Face-Detection/index.html",
-    "precache-manifest.4e1216f3a53a89a442e73add399d895e.js": "/Face-Detection/precache-manifest.4e1216f3a53a89a442e73add399d895e.js",
+    "precache-manifest.80a8c6d118df451dc4668e61e262e88a.js": "/Face-Detection/precache-manifest.80a8c6d118df451dc4668e61e262e88a.js",
     "service-worker.js": "/Face-Detection/service-worker.js",
     "static/css/2.31dafeb2.chunk.css.map": "/Face-Detection/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.63b8f6c4.chunk.css.map": "/Face-Detection/static/css/main.63b8f6c4.chunk.css.map",
+    "static/css/main.9a59700a.chunk.css.map": "/Face-Detection/static/css/main.9a59700a.chunk.css.map",
     "static/media/india.png": "/Face-Detection/static/media/india.f9ba6a4d.png"
   }
 }
