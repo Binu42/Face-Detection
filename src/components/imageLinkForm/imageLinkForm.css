@@ -29,13 +29,17 @@ button:focus {
     outline: none;
 }
 
+.ImageLink {
+    position: relative;
+}
+
 @media(min-width: 40rem){
     .ImageLink{
-        position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
 }
+
 input{
     border: 2px solid #04bb1d;
     border-radius: 5px;
