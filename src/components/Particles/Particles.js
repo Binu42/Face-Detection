@@ -8,7 +8,7 @@ const Options = {
         }
       },
       "color": {
-        "value": "#ff6600"
+        "value": "#fff"
       },
       "shape": {
         "type": "circle",
@@ -43,7 +43,7 @@ const Options = {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#fff",
+        "color": "#fff4e3",
         "opacity": 0.4,
         "width": 1
       },

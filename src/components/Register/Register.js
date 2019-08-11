@@ -24,7 +24,7 @@ const Register = ({onRouteChange}) => {
                     <input onClick={() => onRouteChange('home')} className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Register"/>
                 </div>
                 <div className="lh-copy mt3">
-                    <p onClick={() => onRouteChange('signin')} className="f6 link dim black db pointer">Login</p>
+                    <p onClick={() => onRouteChange('signin')} className="f6 white link dim black db pointer">Login</p>
                 </div>
             </div>
             </main>
