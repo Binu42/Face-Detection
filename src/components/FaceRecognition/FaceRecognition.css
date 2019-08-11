@@ -11,7 +11,8 @@
     position: absolute;
     border-style: solid;
     border-spacing: 2px;
-    border-image: linear-gradient( 179.7deg,  rgba(252,123,123,1) -0.9%, rgba(255,187,147,1) 15.6%, rgba(252,169,245,1) 32.6%, rgba(251,253,134,1) 51.2%, rgba(150,254,179,1) 68.9%, rgba(157,164,253,1) 84.2%, rgba(202,130,253,0.98) 101.4% );
+    background-image: radial-gradient( circle 592px at 48.2% 50%,  #fffff92c 0%, #a0c7fe3a 74.6% );
+    border-color: azure;
     border-image-slice: 1;
     display: flex;
     flex-wrap: wrap;
