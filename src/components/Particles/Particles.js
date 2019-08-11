@@ -1,7 +1,7 @@
 const Options = {
     "particles": {
       "number": {
-        "value": 280,
+        "value": 300,
         "density": {
           "enable": true,
           "value_area": 800
@@ -21,7 +21,7 @@ const Options = {
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.7,
         "random": false,
         "anim": {
           "enable": false,
@@ -31,7 +31,7 @@ const Options = {
         }
       },
       "size": {
-        "value": 4,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": true,
@@ -83,7 +83,7 @@ const Options = {
           }
         },
         bubble: {
-          size: 10
+          size: 8
         }
       }
     },
