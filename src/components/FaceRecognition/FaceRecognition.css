@@ -9,17 +9,21 @@
 
 .border-box {
     position: absolute;
-    box-shadow: 0 0 0 3px #149df2 inset;
+    border-style: solid;
+    border-spacing: 2px;
+    border-image: linear-gradient( 179.7deg,  rgba(252,123,123,1) -0.9%, rgba(255,187,147,1) 15.6%, rgba(252,169,245,1) 32.6%, rgba(251,253,134,1) 51.2%, rgba(150,254,179,1) 68.9%, rgba(157,164,253,1) 84.2%, rgba(202,130,253,0.98) 101.4% );
+    border-image-slice: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     cursor: pointer;
 
+
 }
 
 .Load-msg{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     font-size: 1.2rem;
     font-weight: bold;
@@ -27,4 +31,10 @@
     color: #cd3232;
     background: #ffffff54;
     padding: 5px;
+}
+
+@media(min-width: 40rem){
+    .image-container{
+        width: 80%;
+    }
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navigation from '../../components/Navigation/Navigation';
+// import Navigation from '../../components/Navigation/Navigation';
 import Logo from '../../components/Logo/Logo';
 import ImageLinkForm from '../../components/imageLinkForm/imageLinkForm';
 import UserDetails from '../../components/UserDetails/UserDetails';
@@ -7,6 +7,8 @@ import Particles from 'react-particles-js';
 import ParticlesOptions from '../../components/Particles/Particles';
 import Footer from '../../components/Footer/Footer';
 import FaceRecognition from '../../components/FaceRecognition/FaceRecognition';
+import Signin from '../../components/Sigin/Signin';
+import Register from '../../components/Register/Register';
 import Clarifai from 'clarifai';
 import '../css/App.css';
 
@@ -21,7 +23,9 @@ class App extends Component {
     this.state = {
       input: '',
       imageUrl: '',
-      box: ''
+      box: '',
+      route: 'signin',
+      signedInStatus: false
     }
   }
   
@@ -74,18 +78,33 @@ class App extends Component {
     }
   }
 
+  onRouteChange = (route) => {
+    if(route === 'signout' ){
+      this.setState({signedInStatus: false})
+    }else if(route === 'home'){
+      this.setState({signedInStatus: true})
+    }
+    this.setState({route: route})
+  }
+
   render() {
+    const {route, signedInStatus, box, imageUrl} = this.state;
     return (
       <div className="App">
         <Particles params={ParticlesOptions} className='particles'/>
-        <Navigation/>
-        <Logo/>
-        <UserDetails/>
-        <ImageLinkForm
-        onInputChange={this.onInputChange}
-        onButtonClick={this.onButtonClick}
-        />
-        <FaceRecognition boxes={this.state.box} imageUrl={this.state.imageUrl}/>
+        <div className='pa2'></div>
+        <Logo onRoutechange={this.onRouteChange} signedInStatus={signedInStatus}/>
+        {route === 'home' 
+        ? <div>
+            {/* <Navigation onRoutechange={this.onRouteChange}/> */}
+            <UserDetails/>
+            <ImageLinkForm
+            onInputChange={this.onInputChange}
+            onButtonClick={this.onButtonClick}
+            />
+            <FaceRecognition boxes={box} imageUrl={imageUrl}/>
+        </div> : (route === 'signin' ? <Signin onRouteChange={this.onRouteChange}/> : <Register onRouteChange={this.onRouteChange}/>)
+        }
         <Footer/>
       </div>
     );

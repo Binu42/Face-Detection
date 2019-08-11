@@ -1,5 +1,5 @@
 import React from 'react';
-import './FaceRecognition.css'
+import './FaceRecognition.css';
 
 const FaceRecognition = ({boxes, imageUrl}) => {
     const faces = [];
@@ -13,7 +13,7 @@ const FaceRecognition = ({boxes, imageUrl}) => {
         return <span></span>
     }else{
         return (
-            <div className='center padding-top'>
+            <div className='center padding-top image-container'>
                 <p id='message' className='center Load-msg'></p>
                 <img id='input-image' alt={'Give Url to detect'} src={imageUrl} className='img-fluid'/>
                 {/* // different faces in image */}

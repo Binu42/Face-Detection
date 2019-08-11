@@ -2,3 +2,7 @@
     position: relative;
     background-image: linear-gradient(180deg, #ff6600, #ffffff, #04bb1d);
 }
+
+.navbar{
+    display: flex;
+}

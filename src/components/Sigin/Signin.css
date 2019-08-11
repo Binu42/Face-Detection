@@ -1,0 +1,11 @@
+.border{
+    border: 1px solid #fff;
+}
+
+.center-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
