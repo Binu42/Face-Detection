@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5b850083fa1d453aceb2ec5eefe5850",
+    "revision": "ad37e4aba254d8037e9794346775acc8",
     "url": "/Face-Detection/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Face-Detection/static/css/2.31dafeb2.chunk.css"
   },
   {
-    "revision": "6c355ed3d19c819f4905",
+    "revision": "123b492d1a6dfc189399",
     "url": "/Face-Detection/static/css/main.0b392bd0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Face-Detection/static/js/2.8324535a.chunk.js"
   },
   {
-    "revision": "6c355ed3d19c819f4905",
-    "url": "/Face-Detection/static/js/main.74855343.chunk.js"
+    "revision": "123b492d1a6dfc189399",
+    "url": "/Face-Detection/static/js/main.c4f71230.chunk.js"
   },
   {
     "revision": "a81b5a5744b297ca89df",
