@@ -12,10 +12,6 @@ const imageLinkForm = ({onInputChange, onButtonClick}) => {
                     <input onChange={onInputChange} type='text' className='f4 pa2 w-70 center' placeholder='Give the link of image'/>
                     <button className='w-30 grow f5 link grow btn ph3 pv2 dib white' onClick={onButtonClick}>Detect</button>
                 </div>
-                {/* <div className='pa3 br3 shadow-5 form center'>
-                    <input onChange={onInputChange2} type='file' className='f4 pa1 w-70 center' placeholder='Give the link of image'/>
-                    <button className='w-28 grow f5 link grow btn ph3 pv2 dib white' onClick={onButtonClick}>Detect</button>
-                </div> */}
             </div>
         </div>
     )

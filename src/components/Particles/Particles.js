@@ -43,7 +43,7 @@ const Options = {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#fff4e3",
+        "color": "#22eaca",
         "opacity": 0.4,
         "width": 1
       },

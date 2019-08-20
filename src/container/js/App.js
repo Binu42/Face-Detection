@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-// import Navigation from '../../components/Navigation/Navigation';
 import Logo from '../../components/Logo/Logo';
 import ImageLinkForm from '../../components/imageLinkForm/imageLinkForm';
+// import ImageUpload from '../../components/imageLinkForm/imageUpload';
 import UserDetails from '../../components/UserDetails/UserDetails';
 import Particles from 'react-particles-js';
 import ParticlesOptions from '../../components/Particles/Particles';
@@ -25,7 +25,8 @@ class App extends Component {
       imageUrl: '',
       box: '',
       route: 'signin',
-      signedInStatus: false
+      signedInStatus: false,
+      imageRoute: 'link'
     }
   }
   
@@ -56,6 +57,22 @@ class App extends Component {
     this.setState({box: box})
   }
 
+  // onUpload = (e) => {
+  //   e.preventDefault();
+    
+  //     let reader = new FileReader();
+  //     let file = e.target.files[0];
+  
+  //     reader.onloadend = () => {
+  //       this.setState({
+  //         imageUrl: reader.result,
+  //         input: reader.result
+  //       });
+  //     }
+  
+  //     reader.readAsDataURL(file)
+  // }
+
   onInputChange = (event) => {
     // setting image url of image
     this.setState({input: event.target.value, imageUrl: event.target.value});
@@ -65,6 +82,7 @@ class App extends Component {
   // Detacting faces in image on button click
   onButtonClick = (event) => {
     // clarifai code for faces detection
+    console.log(this.state.input);
     if(this.state.input === ''){
       event.preventDefault();
     }else{
@@ -102,6 +120,7 @@ class App extends Component {
             onInputChange={this.onInputChange}
             onButtonClick={this.onButtonClick}
             />
+            {/* <ImageUpload onUpload={this.onUpload} onButtonClick={this.onButtonClick}/> */}
             <FaceRecognition boxes={box} imageUrl={imageUrl}/>
         </div> : (route === 'signin' ? <Signin onRouteChange={this.onRouteChange}/> : <Register onRouteChange={this.onRouteChange}/>)
         }

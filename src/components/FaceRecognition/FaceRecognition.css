@@ -12,14 +12,12 @@
     border-style: solid;
     border-spacing: 2px;
     background-image: radial-gradient( circle 592px at 48.2% 50%,  #fffff92c 0%, #a0c7fe3a 74.6% );
-    border-color: azure;
+    border-color: #00ffdd;
     border-image-slice: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     cursor: pointer;
-
-
 }
 
 .Load-msg{
